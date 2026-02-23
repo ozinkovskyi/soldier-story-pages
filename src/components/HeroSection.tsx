@@ -30,7 +30,7 @@ const HeroSection = () => {
           </h1>
           <p className="font-sans text-lg md:text-xl text-muted-foreground max-w-2xl mx-auto mb-10 leading-relaxed">
             Реальна історія українського воїна — про полон, колючий дріт, 
-            і незламну волю до свободи.
+            і <span className="text-sprout font-medium">незламну волю</span> до свободи.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a

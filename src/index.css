@@ -48,6 +48,8 @@
     /* Custom tokens */
     --crimson: 0 65% 42%;
     --crimson-dim: 0 40% 28%;
+    --sprout: 120 35% 38%;
+    --sprout-dim: 120 25% 25%;
     --charcoal: 0 0% 16%;
     --charcoal-dark: 0 0% 9%;
     --paper: 40 10% 88%;
@@ -82,5 +84,11 @@
   }
   .border-crimson-dim {
     border-color: hsl(var(--crimson-dim));
+  }
+  .text-sprout {
+    color: hsl(var(--sprout));
+  }
+  .border-sprout {
+    border-color: hsl(var(--sprout));
   }
 }

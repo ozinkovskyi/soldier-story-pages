@@ -25,6 +25,8 @@ export default {
         foreground: "hsl(var(--foreground))",
         crimson: "hsl(var(--crimson))",
         "crimson-dim": "hsl(var(--crimson-dim))",
+        sprout: "hsl(var(--sprout))",
+        "sprout-dim": "hsl(var(--sprout-dim))",
         charcoal: "hsl(var(--charcoal))",
         "charcoal-dark": "hsl(var(--charcoal-dark))",
         paper: "hsl(var(--paper))",

@@ -17,7 +17,7 @@ const AboutSection = () => {
             </p>
             <h2 className="font-display text-3xl md:text-4xl text-foreground mb-6">
               Алексей Ануля.{" "}
-              <span className="text-crimson">Незламний.</span>
+              <span className="text-sprout">Незламний.</span>
             </h2>
             <div className="space-y-4 text-muted-foreground font-sans leading-relaxed">
               <p>

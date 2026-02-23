@@ -33,7 +33,7 @@ const BookSection = () => {
                   "Важливий документ для історії України",
                 ].map((item, i) => (
                   <li key={i} className="flex items-start gap-3">
-                    <span className="text-crimson mt-1 flex-shrink-0">✦</span>
+                    <span className="text-sprout mt-1 flex-shrink-0">✦</span>
                     <span>{item}</span>
                   </li>
                 ))}
