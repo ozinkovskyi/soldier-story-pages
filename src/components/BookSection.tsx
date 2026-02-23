@@ -13,11 +13,11 @@ const BookSection = () => {
           className="grid md:grid-cols-2 gap-16 items-center"
         >
           <div className="order-2 md:order-1">
-            <p className="text-gold font-sans text-sm tracking-[0.3em] uppercase mb-4">
+            <p className="text-crimson font-sans text-sm tracking-[0.3em] uppercase mb-4">
               Книга
             </p>
-            <h2 className="font-serif text-3xl md:text-4xl font-bold text-foreground mb-6">
-              Полон. <span className="text-gold italic">Шлях додому</span>
+            <h2 className="font-display text-3xl md:text-4xl text-foreground mb-6">
+              Jingle <span className="text-crimson">Bell</span>
             </h2>
             <div className="space-y-4 text-muted-foreground font-sans leading-relaxed mb-8">
               <p>
@@ -33,7 +33,7 @@ const BookSection = () => {
                   "Важливий документ для історії України",
                 ].map((item, i) => (
                   <li key={i} className="flex items-start gap-3">
-                    <span className="text-gold mt-1 flex-shrink-0">✦</span>
+                    <span className="text-crimson mt-1 flex-shrink-0">✦</span>
                     <span>{item}</span>
                   </li>
                 ))}
@@ -54,10 +54,10 @@ const BookSection = () => {
             >
               <img
                 src={bookCover}
-                alt="Книга Полон — Шлях додому"
+                alt="Книга Jingle Bell — Алексей Ануля"
                 className="w-72 md:w-80 rounded-sm shadow-2xl shadow-black/50"
               />
-              <div className="absolute inset-0 rounded-sm ring-1 ring-gold/20" />
+              <div className="absolute inset-0 rounded-sm ring-1 ring-crimson/20" />
             </motion.div>
           </div>
         </motion.div>

@@ -12,7 +12,7 @@ const HeroSection = () => {
         className="absolute inset-0"
         style={{
           background:
-            "linear-gradient(180deg, hsla(40,15%,8%,0.3) 0%, hsla(40,15%,8%,0.85) 100%)",
+            "linear-gradient(180deg, hsla(0,0%,7%,0.4) 0%, hsla(0,0%,7%,0.92) 100%)",
         }}
       />
       <div className="relative z-10 text-center px-6 max-w-4xl mx-auto">
@@ -21,16 +21,16 @@ const HeroSection = () => {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 1, delay: 0.2 }}
         >
-          <p className="text-gold font-sans text-sm tracking-[0.3em] uppercase mb-6">
-            Книга, що змінює погляд на війну
+          <p className="text-crimson font-sans text-sm tracking-[0.3em] uppercase mb-6">
+            Алексей Ануля
           </p>
-          <h1 className="font-serif text-5xl md:text-7xl font-bold text-foreground leading-tight mb-6">
-            Полон.{" "}
-            <span className="text-gold italic">Шлях додому</span>
+          <h1 className="font-display text-6xl md:text-8xl text-foreground leading-tight mb-6">
+            Jingle{" "}
+            <span className="text-crimson">Bell</span>
           </h1>
           <p className="font-sans text-lg md:text-xl text-muted-foreground max-w-2xl mx-auto mb-10 leading-relaxed">
-            Особиста історія українського воїна — про стійкість духу, 
-            нелюдські умови полону та незламну волю до свободи.
+            Реальна історія українського воїна — про полон, колючий дріт, 
+            і незламну волю до свободи.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a
@@ -41,7 +41,7 @@ const HeroSection = () => {
             </a>
             <a
               href="#contact"
-              className="inline-flex items-center justify-center px-8 py-4 border border-gold-dim text-foreground font-sans font-semibold text-base tracking-wide rounded hover:bg-muted transition-all"
+              className="inline-flex items-center justify-center px-8 py-4 border border-crimson-dim text-foreground font-sans font-semibold text-base tracking-wide rounded hover:bg-muted transition-all"
             >
               Зв'язатися з автором
             </a>
@@ -60,7 +60,7 @@ const HeroSection = () => {
           fill="none"
           stroke="currentColor"
           strokeWidth="2"
-          className="text-gold opacity-60"
+          className="text-crimson opacity-60"
         >
           <path d="M12 5v14M19 12l-7 7-7-7" />
         </svg>

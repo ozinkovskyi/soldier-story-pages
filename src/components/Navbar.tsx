@@ -37,18 +37,17 @@ const Navbar = () => {
             e.preventDefault();
             window.scrollTo({ top: 0, behavior: "smooth" });
           }}
-          className="font-serif text-xl font-bold text-foreground"
+          className="font-display text-xl text-foreground"
         >
-          Полон. <span className="text-gold italic">Шлях додому</span>
+          Jingle <span className="text-crimson">Bell</span>
         </a>
 
-        {/* Desktop */}
         <div className="hidden md:flex items-center gap-8">
           {navLinks.map((link) => (
             <button
               key={link.href}
               onClick={() => handleClick(link.href)}
-              className="font-sans text-sm tracking-wide text-muted-foreground hover:text-gold transition-colors"
+              className="font-sans text-sm tracking-wide text-muted-foreground hover:text-crimson transition-colors"
             >
               {link.label}
             </button>
@@ -61,7 +60,6 @@ const Navbar = () => {
           </button>
         </div>
 
-        {/* Mobile toggle */}
         <button
           className="md:hidden text-foreground"
           onClick={() => setMobileOpen(!mobileOpen)}
@@ -70,7 +68,6 @@ const Navbar = () => {
         </button>
       </div>
 
-      {/* Mobile menu */}
       <AnimatePresence>
         {mobileOpen && (
           <motion.div
@@ -84,7 +81,7 @@ const Navbar = () => {
                 <button
                   key={link.href}
                   onClick={() => handleClick(link.href)}
-                  className="font-sans text-base text-muted-foreground hover:text-gold transition-colors"
+                  className="font-sans text-base text-muted-foreground hover:text-crimson transition-colors"
                 >
                   {link.label}
                 </button>
