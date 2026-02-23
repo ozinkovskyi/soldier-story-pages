@@ -13,12 +13,20 @@ export default {
       },
     },
     extend: {
+      fontFamily: {
+        serif: ['"Playfair Display"', 'serif'],
+        sans: ['"Source Sans 3"', 'sans-serif'],
+      },
       colors: {
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
         ring: "hsl(var(--ring))",
         background: "hsl(var(--background))",
         foreground: "hsl(var(--foreground))",
+        gold: "hsl(var(--gold))",
+        "gold-dim": "hsl(var(--gold-dim))",
+        olive: "hsl(var(--olive))",
+        "olive-dark": "hsl(var(--olive-dark))",
         primary: {
           DEFAULT: "hsl(var(--primary))",
           foreground: "hsl(var(--primary-foreground))",
