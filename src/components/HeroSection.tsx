@@ -4,15 +4,11 @@ import heroBg from "@/assets/hero-bg.jpg";
 const HeroSection = () => {
   return (
     <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
-      <div
-        className="absolute inset-0 bg-cover bg-center bg-no-repeat"
-        style={{ backgroundImage: `url(${heroBg})` }}
-      />
+      <div className="absolute inset-0 bg-cover bg-center bg-no-repeat" style={{ backgroundImage: `url(${heroBg})` }} />
       <div
         className="absolute inset-0"
         style={{
-          background:
-            "linear-gradient(180deg, hsla(0,0%,7%,0.4) 0%, hsla(0,0%,7%,0.92) 100%)",
+          background: "linear-gradient(180deg, hsla(0,0%,7%,0.4) 0%, hsla(0,0%,7%,0.92) 100%)",
         }}
       />
       <div className="relative z-10 text-center px-6 max-w-4xl mx-auto">
@@ -21,16 +17,13 @@ const HeroSection = () => {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 1, delay: 0.2 }}
         >
-          <p className="text-crimson font-sans text-sm tracking-[0.3em] uppercase mb-6">
-            Алексей Ануля
-          </p>
+          <p className="text-crimson font-sans text-sm tracking-[0.3em] uppercase mb-6">Алексей Ануля</p>
           <h1 className="font-display text-6xl md:text-8xl text-foreground leading-tight mb-6">
-            Jingle{" "}
-            <span className="text-crimson">Bell</span>
+            Jingle <span className="text-crimson">Bellz</span>
           </h1>
           <p className="font-sans text-lg md:text-xl text-muted-foreground max-w-2xl mx-auto mb-10 leading-relaxed">
-            Реальна історія українського воїна — про полон, колючий дріт, 
-            і <span className="text-sprout font-medium">незламну волю</span> до свободи.
+            Реальна історія українського воїна — про полон, колючий дріт, і{" "}
+            <span className="text-sprout font-medium">незламну волю</span> до свободи.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a
