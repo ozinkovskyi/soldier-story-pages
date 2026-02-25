@@ -1,14 +1,16 @@
 import { useState, useEffect } from "react";
+import { useTranslation } from "react-i18next";
 import { Menu, X } from "lucide-react";
 import { motion, AnimatePresence } from "framer-motion";
+import LanguageSwitcher from "@/components/LanguageSwitcher";
 
-const navLinks = [
-  { label: "Про автора", href: "#about" },
-  { label: "Книга", href: "#book" },
-  { label: "Контакти", href: "#contact" },
-];
+const navLinksKeys = [
+  { labelKey: "nav.about", href: "#about" },
+  { labelKey: "nav.book", href: "#book" },
+] as const;
 
 const Navbar = () => {
+  const { t } = useTranslation();
   const [scrolled, setScrolled] = useState(false);
   const [mobileOpen, setMobileOpen] = useState(false);
 
@@ -20,8 +22,12 @@ const Navbar = () => {
 
   const handleClick = (href: string) => {
     setMobileOpen(false);
-    const el = document.querySelector(href);
-    el?.scrollIntoView({ behavior: "smooth" });
+    requestAnimationFrame(() => {
+      setTimeout(() => {
+        const el = document.querySelector(href);
+        el?.scrollIntoView({ behavior: "smooth" });
+      }, 300);
+    });
   };
 
   return (
@@ -39,29 +45,32 @@ const Navbar = () => {
           }}
           className="font-display text-xl text-foreground"
         >
-          Jingle <span className="text-crimson">Bell</span>
+          Jingle <span className="text-crimson">Hellz</span>
         </a>
 
         <div className="hidden md:flex items-center gap-8">
-          {navLinks.map((link) => (
+          {navLinksKeys.map((link) => (
             <button
               key={link.href}
               onClick={() => handleClick(link.href)}
-              className="font-sans text-sm tracking-wide text-muted-foreground hover:text-crimson transition-colors"
+              className={`font-sans text-sm tracking-wide transition-colors ${
+                scrolled ? "text-muted-foreground hover:text-crimson" : "text-white hover:text-white/80"
+              }`}
             >
-              {link.label}
+              {t(link.labelKey)}
             </button>
           ))}
+          <LanguageSwitcher light={!scrolled} />
           <button
-            onClick={() => handleClick("#book")}
+            onClick={() => handleClick("#contact")}
             className="px-5 py-2 bg-primary text-primary-foreground font-sans text-sm font-semibold rounded hover:brightness-110 transition-all"
           >
-            Замовити
+            {t("nav.order")}
           </button>
         </div>
 
         <button
-          className="md:hidden text-foreground"
+          className={`md:hidden transition-colors ${scrolled ? "text-foreground" : "text-white"}`}
           onClick={() => setMobileOpen(!mobileOpen)}
         >
           {mobileOpen ? <X size={24} /> : <Menu size={24} />}
@@ -77,20 +86,21 @@ const Navbar = () => {
             className="md:hidden bg-background/95 backdrop-blur-md border-t border-border overflow-hidden"
           >
             <div className="flex flex-col items-center gap-4 py-6">
-              {navLinks.map((link) => (
+              {navLinksKeys.map((link) => (
                 <button
                   key={link.href}
                   onClick={() => handleClick(link.href)}
                   className="font-sans text-base text-muted-foreground hover:text-crimson transition-colors"
                 >
-                  {link.label}
+                  {t(link.labelKey)}
                 </button>
               ))}
+              <LanguageSwitcher />
               <button
-                onClick={() => handleClick("#book")}
+                onClick={() => handleClick("#contact")}
                 className="px-6 py-3 bg-primary text-primary-foreground font-sans text-sm font-semibold rounded hover:brightness-110 transition-all"
               >
-                Замовити
+                {t("nav.order")}
               </button>
             </div>
           </motion.div>

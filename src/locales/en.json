@@ -1,0 +1,70 @@
+{
+  "nav": {
+    "about": "About the author",
+    "book": "Book",
+    "contact": "Contact",
+    "order": "Order"
+  },
+  "common": {
+    "brandHighlight": "Bellz"
+  },
+  "hero": {
+    "author": "Oleksii Anulia",
+    "title": "Jingle Bellz",
+    "titleHighlight": "Bellz",
+    "subtitle": "A true story of a Ukrainian soldier — captivity, barbed wire, and an unbreakable will for freedom.",
+    "subtitleBefore": "A true story of a Ukrainian soldier — captivity, barbed wire, and an ",
+    "subtitleHighlight": "unbreakable will",
+    "subtitleAfter": " for freedom.",
+    "orderBook": "Order the book",
+    "contactAuthor": "Contact the author"
+  },
+  "footer": {
+    "glory": "Glory to Ukraine! 🇺🇦",
+    "supportPatreon": "Support on Patreon",
+    "fundLink": "Cost of Liberty Foundation",
+    "copyright": "© {{year}} Oleksii Anulia. All rights reserved."
+  },
+  "about": {
+    "label": "About the author",
+    "title": "Oleksii Anulia.",
+    "titleHighlight": "Unbreakable.",
+    "p1": "A Ukrainian soldier who went through the hell of captivity and returned to tell the truth. His story is a testament to courage and the resilience of the human spirit in the darkest of times.",
+    "p2": "«Jingle Bellz» is not just a memoir. It is a document of our time, written in blood and barbed wire, that everyone who wants to understand the true price of freedom should read.",
+    "photoCaption": "Author photo"
+  },
+  "book": {
+    "label": "Book",
+    "title": "Jingle Bellz",
+    "titleHighlight": "Bellz",
+    "description": "Diaries written in captivity and restored from memory after liberation. Every page is a struggle for survival, for preserving humanity in inhumane conditions.",
+    "bullet1": "A true story from the source",
+    "bullet2": "A unique testimony about captivity conditions",
+    "bullet3": "A story of resilience and hope",
+    "bullet4": "An important document for Ukraine's history",
+    "orderBook": "Order the book",
+    "imageAlt": "Jingle Bellz book — Oleksii Anulia"
+  },
+  "contact": {
+    "label": "Contact",
+    "heading": "Contact the",
+    "headingAuthor": "author",
+    "intro": "Have questions, want to order the book or invite for a talk? Write to us.",
+    "labelName": "Your name",
+    "placeholderName": "Your name",
+    "labelEmail": "Email",
+    "placeholderEmail": "your@email.com",
+    "labelMessage": "Message",
+    "placeholderMessage": "Your message...",
+    "submit": "Send message",
+    "sending": "Sending...",
+    "toastError": "Please fill in all fields",
+    "toastSuccess": "Thank you!",
+    "toastSuccessDesc": "Your message has been sent."
+  },
+  "notFound": {
+    "title": "404",
+    "message": "Oops! Page not found",
+    "backHome": "Return to Home"
+  }
+}

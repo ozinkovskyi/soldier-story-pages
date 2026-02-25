@@ -1,0 +1,70 @@
+{
+  "nav": {
+    "about": "Über den Autor",
+    "book": "Buch",
+    "contact": "Kontakt",
+    "order": "Bestellen"
+  },
+  "common": {
+    "brandHighlight": "Bellz"
+  },
+  "hero": {
+    "author": "Oleksii Anulia",
+    "title": "Jingle Bellz",
+    "titleHighlight": "Bellz",
+    "subtitle": "Die wahre Geschichte eines ukrainischen Soldaten — Gefangenschaft, Stacheldraht und ein ungebrochener Wille zur Freiheit.",
+    "subtitleBefore": "Die wahre Geschichte eines ukrainischen Soldaten — Gefangenschaft, Stacheldraht und ein ",
+    "subtitleHighlight": "ungebrochener Wille",
+    "subtitleAfter": " zur Freiheit.",
+    "orderBook": "Buch bestellen",
+    "contactAuthor": "Autor kontaktieren"
+  },
+  "footer": {
+    "glory": "Ruhm der Ukraine! 🇺🇦",
+    "supportPatreon": "Auf Patreon unterstützen",
+    "fundLink": "Stiftung Cost of Liberty",
+    "copyright": "© {{year}} Oleksii Anulia. Alle Rechte vorbehalten."
+  },
+  "about": {
+    "label": "Über den Autor",
+    "title": "Oleksii Anulia.",
+    "titleHighlight": "Ungebrochen.",
+    "p1": "Ein ukrainischer Soldat, der die Hölle der Gefangenschaft durchlebte und zurückkehrte, um die Wahrheit zu erzählen. Seine Geschichte ist ein Zeugnis von Mut und der Widerstandsfähigkeit des menschlichen Geistes in den dunkelsten Zeiten.",
+    "p2": "«Jingle Bellz» ist nicht nur ein Memoir. Es ist ein Dokument unserer Zeit, geschrieben in Blut und Stacheldraht, das jeder lesen sollte, der den wahren Preis der Freiheit verstehen möchte.",
+    "photoCaption": "Foto des Autors"
+  },
+  "book": {
+    "label": "Buch",
+    "title": "Jingle Bellz",
+    "titleHighlight": "Bellz",
+    "description": "Tagebücher, in Gefangenschaft geschrieben und nach der Befreiung aus dem Gedächtnis rekonstruiert. Jede Seite ist ein Kampf ums Überleben, um die Bewahrung der Menschlichkeit unter unmenschlichen Bedingungen.",
+    "bullet1": "Eine wahre Geschichte aus erster Hand",
+    "bullet2": "Ein einzigartiges Zeugnis über die Bedingungen der Gefangenschaft",
+    "bullet3": "Eine Geschichte von Widerstandsfähigkeit und Hoffnung",
+    "bullet4": "Ein wichtiges Dokument für die Geschichte der Ukraine",
+    "orderBook": "Buch bestellen",
+    "imageAlt": "Buch Jingle Bellz — Oleksii Anulia"
+  },
+  "contact": {
+    "label": "Kontakt",
+    "heading": "Kontaktieren Sie den",
+    "headingAuthor": "Autor",
+    "intro": "Haben Sie Fragen, möchten Sie das Buch bestellen oder zu einem Vortrag einladen? Schreiben Sie uns.",
+    "labelName": "Ihr Name",
+    "placeholderName": "Ihr Name",
+    "labelEmail": "E-Mail",
+    "placeholderEmail": "ihre@email.de",
+    "labelMessage": "Nachricht",
+    "placeholderMessage": "Ihre Nachricht...",
+    "submit": "Nachricht senden",
+    "sending": "Wird gesendet...",
+    "toastError": "Bitte füllen Sie alle Felder aus",
+    "toastSuccess": "Vielen Dank!",
+    "toastSuccessDesc": "Ihre Nachricht wurde gesendet."
+  },
+  "notFound": {
+    "title": "404",
+    "message": "Hoppla! Seite nicht gefunden",
+    "backHome": "Zurück zur Startseite"
+  }
+}

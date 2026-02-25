@@ -1,0 +1,70 @@
+{
+  "nav": {
+    "about": "Over de auteur",
+    "book": "Boek",
+    "contact": "Contact",
+    "order": "Bestellen"
+  },
+  "common": {
+    "brandHighlight": "Bellz"
+  },
+  "hero": {
+    "author": "Oleksii Anulia",
+    "title": "Jingle Bellz",
+    "titleHighlight": "Bellz",
+    "subtitle": "Een waargebeurd verhaal van een Oekraïens soldaat — gevangenschap, prikkeldraad en een onbreekbare wil tot vrijheid.",
+    "subtitleBefore": "Een waargebeurd verhaal van een Oekraïens soldaat — gevangenschap, prikkeldraad en een ",
+    "subtitleHighlight": "onbreekbare wil",
+    "subtitleAfter": " tot vrijheid.",
+    "orderBook": "Boek bestellen",
+    "contactAuthor": "Contact opnemen met de auteur"
+  },
+  "footer": {
+    "glory": "Glorie aan Oekraïne! 🇺🇦",
+    "supportPatreon": "Steun op Patreon",
+    "fundLink": "Cost of Liberty Foundation",
+    "copyright": "© {{year}} Oleksii Anulia. Alle rechten voorbehouden."
+  },
+  "about": {
+    "label": "Over de auteur",
+    "title": "Oleksii Anulia.",
+    "titleHighlight": "Onbreekbaar.",
+    "p1": "Een Oekraïens soldaat die de hel van gevangenschap doorstond en terugkeerde om de waarheid te vertellen. Zijn verhaal is een getuigenis van moed en de veerkracht van de menselijke geest in de donkerste tijden.",
+    "p2": "«Jingle Bellz» is niet zomaar een memoire. Het is een document van onze tijd, geschreven in bloed en prikkeldraad, dat iedereen zou moeten lezen die de ware prijs van vrijheid wil begrijpen.",
+    "photoCaption": "Foto van de auteur"
+  },
+  "book": {
+    "label": "Boek",
+    "title": "Jingle Bellz",
+    "titleHighlight": "Bellz",
+    "description": "Dagboeken geschreven in gevangenschap en uit het geheugen hersteld na de bevrijding. Elke pagina is een strijd om te overleven, om menselijkheid te bewaren onder onmenselijke omstandigheden.",
+    "bullet1": "Een waargebeurd verhaal uit eerste hand",
+    "bullet2": "Een uniek getuigenis over de omstandigheden in gevangenschap",
+    "bullet3": "Een verhaal van veerkracht en hoop",
+    "bullet4": "Een belangrijk document voor de geschiedenis van Oekraïne",
+    "orderBook": "Boek bestellen",
+    "imageAlt": "Boek Jingle Bellz — Oleksii Anulia"
+  },
+  "contact": {
+    "label": "Contact",
+    "heading": "Neem contact op met de",
+    "headingAuthor": "auteur",
+    "intro": "Heeft u vragen, wilt u het boek bestellen of een lezing aanvragen? Schrijf ons.",
+    "labelName": "Uw naam",
+    "placeholderName": "Uw naam",
+    "labelEmail": "E-mail",
+    "placeholderEmail": "uw@email.nl",
+    "labelMessage": "Bericht",
+    "placeholderMessage": "Uw bericht...",
+    "submit": "Bericht versturen",
+    "sending": "Bezig met verzenden...",
+    "toastError": "Vul alle velden in",
+    "toastSuccess": "Bedankt!",
+    "toastSuccessDesc": "Uw bericht is verzonden."
+  },
+  "notFound": {
+    "title": "404",
+    "message": "Oeps! Pagina niet gevonden",
+    "backHome": "Terug naar start"
+  }
+}

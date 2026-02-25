@@ -27,7 +27,7 @@
     --accent: 0 65% 42%;
     --accent-foreground: 0 0% 98%;
 
-    --destructive: 0 84.2% 60.2%;
+    --destructive: 0 84.2% 48%;
     --destructive-foreground: 210 40% 98%;
 
     --border: 0 0% 18%;
@@ -48,8 +48,8 @@
     /* Custom tokens */
     --crimson: 0 65% 42%;
     --crimson-dim: 0 40% 28%;
-    --sprout: 120 35% 38%;
-    --sprout-dim: 120 25% 25%;
+    --sprout: 120 35% 48%;
+    --sprout-dim: 120 25% 32%;
     --charcoal: 0 0% 16%;
     --charcoal-dark: 0 0% 9%;
     --paper: 40 10% 88%;
@@ -60,7 +60,7 @@
   }
 
   body {
-    @apply bg-background text-foreground;
+    @apply bg-background text-foreground font-medium;
     font-family: 'Inter', sans-serif;
   }
 
