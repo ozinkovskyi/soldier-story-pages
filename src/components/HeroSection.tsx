@@ -1,5 +1,6 @@
 import { motion } from "framer-motion";
 import heroBg from "@/assets/hero-bg.jpg";
+import sproutImg from "@/assets/sprout.png";
 
 const HeroSection = () => {
   return (
@@ -8,7 +9,7 @@ const HeroSection = () => {
       <div
         className="absolute inset-0"
         style={{
-          background: "linear-gradient(180deg, hsla(0,0%,7%,0.4) 0%, hsla(0,0%,7%,0.92) 100%)",
+          background: "linear-gradient(180deg, hsla(0,0%,7%,0.15) 0%, hsla(0,0%,7%,0.7) 100%)",
         }}
       />
       <div className="relative z-10 text-center px-6 max-w-4xl mx-auto">
@@ -41,8 +42,23 @@ const HeroSection = () => {
           </div>
         </motion.div>
       </div>
+
+      {/* Sprout — symbol of hope */}
       <motion.div
-        className="absolute bottom-8 left-1/2 -translate-x-1/2"
+        className="absolute bottom-0 right-[15%] md:right-[20%] z-20 pointer-events-none"
+        initial={{ opacity: 0, y: 40, scale: 0.7 }}
+        animate={{ opacity: 1, y: 0, scale: 1 }}
+        transition={{ duration: 1.8, delay: 1.2, ease: "easeOut" }}
+      >
+        <img
+          src={sproutImg}
+          alt="Паросток надії, що проростає крізь бетон"
+          className="w-24 md:w-36 lg:w-44 h-auto drop-shadow-[0_0_20px_hsla(120,35%,38%,0.4)]"
+        />
+      </motion.div>
+
+      <motion.div
+        className="absolute bottom-8 left-1/2 -translate-x-1/2 z-20"
         animate={{ y: [0, 10, 0] }}
         transition={{ repeat: Infinity, duration: 2 }}
       >
@@ -53,7 +69,7 @@ const HeroSection = () => {
           fill="none"
           stroke="currentColor"
           strokeWidth="2"
-          className="text-crimson opacity-60"
+          className="text-sprout opacity-60"
         >
           <path d="M12 5v14M19 12l-7 7-7-7" />
         </svg>
