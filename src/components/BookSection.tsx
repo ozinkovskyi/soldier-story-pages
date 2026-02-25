@@ -1,6 +1,6 @@
 import { motion } from "framer-motion";
 import { useTranslation } from "react-i18next";
-import bookCover from "@/assets/book.jpeg";
+import bookCover from "@/assets/book.png";
 
 const BookSection = () => {
   const { t } = useTranslation();
