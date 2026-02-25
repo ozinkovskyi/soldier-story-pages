@@ -14,7 +14,7 @@ export default {
     },
     extend: {
       fontFamily: {
-        display: ['"Special Elite"', 'cursive'],
+        display: ['"Special Elite"', '"Courier New"', 'Courier', 'monospace'],
         sans: ['"Inter"', 'sans-serif'],
       },
       colors: {
